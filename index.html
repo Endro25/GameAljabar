@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Edukasi Aljabar Kelas 4 SD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Game Edukasi Aljabar Kelas 4 SD</h1>
+
+    <div id="game">
+        <h2 id="level-title">Level 1</h2>
+        <div id="question-area">
+            <img id="question-image" src="image1.png" alt="Gambar Soal">
+            <p id="question-text">2 + 3 = ?</p>
+            <input type="number" id="answer" placeholder="Jawab di sini">
+            <button onclick="submitAnswer()">Jawab</button>
+        </div>
+        <p id="feedback"></p>
+        <button id="next-level-btn" onclick="nextLevel()" style="display:none;">Lanjut ke Level Selanjutnya</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
